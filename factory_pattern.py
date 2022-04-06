@@ -1,3 +1,8 @@
+'''
+Objects are created without exposing the logic to client.
+Ex: Create object from string param
+'''
+
 class Button(object):
    html = ""
    def get_html(self):
